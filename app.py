@@ -41,7 +41,7 @@ def generate_response(query, llm, temperature, max_tokens):
         return None, f"An error occurred: {str(e)}"
 
 # Streamlit Interface
-st.title("Q and A Chatbot (Free Groq LPU)")
+st.title("Q and A Chatbot \n*You can change Model setting from the settings*")
 query = st.text_input("What is your query?")
 
 st.sidebar.title("Settings")
