@@ -9,7 +9,7 @@ A lightweight Q&A chatbot powered by **Groq's blazing-fast inference API**, buil
 ## Features
 
 - **Multiple Model Support** — Switch between Llama 3, Qwen, and GPT-OSS models directly from the sidebar
-- **Adjustable Parameters** — Fine-tune `temperature` (0.0–2.0) and `max_tokens` (50–500) per request
+- **Adjustable Parameters** — Fine-tune `temperature` (0.0–2.0) and `max_tokens` (50–1500) per request
 - **LangSmith Tracing** — Optional trace logging via LangSmith for observability and debugging
 - **Simple UI** — Clean Streamlit interface, no frontend knowledge required
 - **Easy Deployment** — Runs locally or deploys to Render, Railway, or any Python-friendly host
