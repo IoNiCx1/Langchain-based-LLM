@@ -56,7 +56,7 @@ llm = st.sidebar.selectbox('Select Model:', [
 ])
 
 temperature = st.sidebar.slider("Select Temperature: ", min_value=0.0, max_value=2.0, value=0.8)
-max_tokens = st.sidebar.slider("Tokens: ", min_value=50, max_value=500, value=100)
+max_tokens = st.sidebar.slider("Tokens: ", min_value=50, max_value=1500, value=100)
 
 if st.button("Answer"):
     if query:
